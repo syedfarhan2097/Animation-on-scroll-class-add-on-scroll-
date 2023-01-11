@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .lng-text-icon-wraper-inner{
+  /* -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
+  transform: translateY(50px) rotate(-5deg) translateZ(0); */
+  /* -webkit-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; */
+  opacity: 0;
+  position: relative;
+
+}
+
+.inView {
+  opacity: 1;
+  /* -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+  transform: translateY(0px) rotate(0deg) translateZ(0); */
+  animation: myMYdiva 1s infinite;
+  -webkit-animation: myMYdiva 1s 1;
+     -webkit-transition-delay: 3s;
+  -o-transition-delay: 3s;
+  transition-delay: 3s;
+}
+@keyframes myMYdiva {
+  0%   {left: -50px;
+          opacity: 0;
+  }
+  100% {left: 0px;
+          opacity: 1;}
+}
+@-webkit-keyframes myMYdiva {
+  0%   {left: -50px;}
+  100% {left: 0px;}
+}
+.field--name-field-title-icon-description .field__item:nth-child(even) .lng-text-icon-wraper .content.inView1 .center .width-full-line{
+  float: right;
+}
+.lng-text-icon-wraper .content.inView1 .center .width-full-line{
+  animation: myMYdivab 1s infinite;
+  -webkit-animation: myMYdivab 1s 1;
+     -webkit-transition-delay: 3s;
+  -o-transition-delay: 3s;
+  transition-delay: 3s;
+}
+
+@keyframes myMYdivab {
+  0%   {width: 0%;}
+  100% {width: 100%;}
+}
+@-webkit-keyframes myMYdivab {
+  0%   {width: 0%;}
+  100% {width: 100%;}
+}
+
+
+
+.lng-text-icon-wraper {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  width: 570px;
+  margin: 40px auto;
+  max-width: 100%;
+
+}
+.lng-text-icon-wraper .lng-text-icon-wraper-inner{
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+.paragraph--type--lines-section .lng-icon-wraper img{
+  /* width: 90px; */
+  width: 156px;
+  margin-bottom: 40px;
+}
+.lng-text-wraper{
+  width: 300px;
+  max-width: 100%;
+}
+.lng-icon-wraper{
+  margin-right: 27px;
+  align-self: center;
+}
+.lng-title{
+  font: normal normal bold 18px/22px Sora;
+  font-family: "Sora-Bold" !important;
+letter-spacing: 0px;
+color: #458764;
+}
+.lng-description{
+  font: normal normal 300 16px/25px Sora;
+  font-family: "Sora-Light" !important;
+letter-spacing: 0px;
+color: #000000;
+margin-top: 7px;
+}
+.field--name-field-title-icon-description .field__item:nth-child(even) .lng-text-icon-wraper {
+  justify-content: end;
+  flex-direction: row-reverse;
+}
+.field--name-field-title-icon-description .field__item:nth-child(even) .lng-text-icon-wraper .lng-text-icon-wraper-inner{
+  display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+
+.field--name-field-title-icon-description .field__item:nth-child(even) .lng-text-icon-wraper .lng-text-wraper{
+  text-align: right;
+}
+.field--name-field-title-icon-description .field__item:nth-child(even) .lng-text-icon-wraper .lng-icon-wraper{
+  margin-left: 27px;
+  margin-right: 0;
+}
+.field--name-field-title-icon-description .field__item:last-child .lng-text-icon-wraper .content{
+  display: none;
+}
+.field--name-field-title-icon-description .field__item:nth-child(even) .lng-text-icon-wraper .content {
+  transform: rotateX(180deg);
+}
+.lng-text-icon-wraper .content {
+  /* width: 481px; */
+  width: 423px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.lng-text-icon-wraper .center {
+  /* margin: 0 8px; */
+  margin: 0 4px 0 4px;
+}
+
+.lng-text-icon-wraper .box-2 {
+  float: right;
+  margin-top: 32px;
+  margin-right: -6px;
+}
+.lng-text-icon-wraper .box {
+  background-color: #458764;
+  /* height: 20px;
+  width: 20px; */
+  height: 10px;
+    width: 10px;
+  text-align: center;
+}
+
+.lng-text-icon-wraper .up-line {
+  height: 32px;
+  border-left: 2px solid #458764;
+  width: 0px;
+}
+
+.lng-text-icon-wraper .width-full-line {
+  border-top: 2px solid #458764;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.lng-text-icon-wraper .down-line {
+  height: 32px;
+  border-left: 2px solid #458764;
+  width: 0px;
+  float: right;
+  clear: both;
+  /* margin-right: -2px; */
+}
+    </style>
+</head>
+<body>
+    <div class="field field--name-field-title-icon-description field--type-entity-reference-revisions field--label-hidden field__items">
+        <div class="field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+* paragraph--title-icon-description--default.html.twig
+x paragraph--title-icon-description.html.twig
+* paragraph--default.html.twig
+* paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+<div class="lng-text-icon-wraper">
+<div class="lng-text-icon-wraper-inner inView">
+<div class="lng-icon-wraper">
+     
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-icon--title-icon-description.html.twig
+* field--paragraph--field-icon.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-icon.html.twig
+* field--image.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-icon field--type-image field--label-hidden field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2022-12/LNG-Prozessgrafiken-091222_Zeichenfla%CC%88che%201.svg" alt="prozess 1" loading="lazy" typeof="foaf:Image">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+
+</div>
+<div class="lng-text-wraper">
+      <h3 class="lng-title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-title--title-icon-description.html.twig
+* field--paragraph--field-title.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-title.html.twig
+* field--string.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-title field--type-string field--label-hidden field__item">Carrier Approval Process</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+</h3>
+      <p class="lng-description">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-text-description--title-icon-description.html.twig
+* field--paragraph--field-text-description.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-text-description.html.twig
+x field--text-long.html.twig
+* field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+      </p><div class="clearfix text-formatted field field--name-field-text-description field--type-text-long field--label-hidden field__item"><p>Überprüfung der Eignung des LNG-Trägers für das Terminal</p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+<p></p>
+</div>
+</div>
+        <div class="content">
+            <div class="box"></div>
+            <div class="center">
+                <div class="up-line"></div>
+              <div class="width-full-line"></div>
+                <div class="down-line"></div>
+            </div>
+            <div class="box box-2"></div>
+        </div>
+</div>
+
+<!-- END OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+
+</div>
+        <div class="field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+* paragraph--title-icon-description--default.html.twig
+x paragraph--title-icon-description.html.twig
+* paragraph--default.html.twig
+* paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+<div class="lng-text-icon-wraper">
+<div class="lng-text-icon-wraper-inner">
+<div class="lng-icon-wraper">
+     
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-icon--title-icon-description.html.twig
+* field--paragraph--field-icon.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-icon.html.twig
+* field--image.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-icon field--type-image field--label-hidden field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2022-12/LNG-Prozessgrafiken-091222-02.svg" alt="prozess 2" loading="lazy" typeof="foaf:Image">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+
+</div>
+<div class="lng-text-wraper">
+      <h3 class="lng-title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-title--title-icon-description.html.twig
+* field--paragraph--field-title.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-title.html.twig
+* field--string.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-title field--type-string field--label-hidden field__item">Kapazitätsbuchung</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+</h3>
+      <p class="lng-description">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-text-description--title-icon-description.html.twig
+* field--paragraph--field-text-description.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-text-description.html.twig
+x field--text-long.html.twig
+* field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+      </p><div class="clearfix text-formatted field field--name-field-text-description field--type-text-long field--label-hidden field__item"><p><span>Vereinbarung über Reservierungszeitraum des Terminals</span></p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+<p></p>
+</div>
+</div>
+        <div class="content">
+            <div class="box"></div>
+            <div class="center">
+                <div class="up-line"></div>
+              <div class="width-full-line"></div>
+                <div class="down-line"></div>
+            </div>
+            <div class="box box-2"></div>
+        </div>
+</div>
+
+<!-- END OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+
+</div>
+        <div class="field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+* paragraph--title-icon-description--default.html.twig
+x paragraph--title-icon-description.html.twig
+* paragraph--default.html.twig
+* paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+<div class="lng-text-icon-wraper">
+<div class="lng-text-icon-wraper-inner">
+<div class="lng-icon-wraper">
+     
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-icon--title-icon-description.html.twig
+* field--paragraph--field-icon.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-icon.html.twig
+* field--image.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-icon field--type-image field--label-hidden field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2022-12/LNG-Prozessgrafiken-091222-03.svg" alt="prozess 3" loading="lazy" typeof="foaf:Image">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+
+</div>
+<div class="lng-text-wraper">
+      <h3 class="lng-title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-title--title-icon-description.html.twig
+* field--paragraph--field-title.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-title.html.twig
+* field--string.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-title field--type-string field--label-hidden field__item">Annahme der Nominierung</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+</h3>
+      <p class="lng-description">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-text-description--title-icon-description.html.twig
+* field--paragraph--field-text-description.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-text-description.html.twig
+x field--text-long.html.twig
+* field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+      </p><div class="clearfix text-formatted field field--name-field-text-description field--type-text-long field--label-hidden field__item"><p><span>Nominierung erfolgt durch den Shipper über unser Nominierungsportal</span></p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+<p></p>
+</div>
+</div>
+        <div class="content">
+            <div class="box"></div>
+            <div class="center">
+                <div class="up-line"></div>
+              <div class="width-full-line"></div>
+                <div class="down-line"></div>
+            </div>
+            <div class="box box-2"></div>
+        </div>
+</div>
+
+<!-- END OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+
+</div>
+        <div class="field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+* paragraph--title-icon-description--default.html.twig
+x paragraph--title-icon-description.html.twig
+* paragraph--default.html.twig
+* paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+<div class="lng-text-icon-wraper">
+<div class="lng-text-icon-wraper-inner">
+<div class="lng-icon-wraper">
+     
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-icon--title-icon-description.html.twig
+* field--paragraph--field-icon.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-icon.html.twig
+* field--image.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-icon field--type-image field--label-hidden field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2022-12/LNG-Prozessgrafiken-091222-06.svg" alt="prozess 4" loading="lazy" typeof="foaf:Image">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+
+</div>
+<div class="lng-text-wraper">
+      <h3 class="lng-title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-title--title-icon-description.html.twig
+* field--paragraph--field-title.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-title.html.twig
+* field--string.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-title field--type-string field--label-hidden field__item">Empfangen des LNG Carriers</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+</h3>
+      <p class="lng-description">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-text-description--title-icon-description.html.twig
+* field--paragraph--field-text-description.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-text-description.html.twig
+x field--text-long.html.twig
+* field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+      </p><div class="clearfix text-formatted field field--name-field-text-description field--type-text-long field--label-hidden field__item"><p><span>Sicherstellen der idealen Voraussetzung zum problemlosen andocken des LNG Carriers.</span></p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+<p></p>
+</div>
+</div>
+        <div class="content">
+            <div class="box"></div>
+            <div class="center">
+                <div class="up-line"></div>
+              <div class="width-full-line"></div>
+                <div class="down-line"></div>
+            </div>
+            <div class="box box-2"></div>
+        </div>
+</div>
+
+<!-- END OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+
+</div>
+        <div class="field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+* paragraph--title-icon-description--default.html.twig
+x paragraph--title-icon-description.html.twig
+* paragraph--default.html.twig
+* paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+<div class="lng-text-icon-wraper">
+<div class="lng-text-icon-wraper-inner">
+<div class="lng-icon-wraper">
+     
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-icon--title-icon-description.html.twig
+* field--paragraph--field-icon.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-icon.html.twig
+* field--image.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-icon field--type-image field--label-hidden field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2022-12/LNG-Prozessgrafiken-091222-05.svg" alt="prozess 5" loading="lazy" typeof="foaf:Image">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+
+</div>
+<div class="lng-text-wraper">
+      <h3 class="lng-title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-title--title-icon-description.html.twig
+* field--paragraph--field-title.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-title.html.twig
+* field--string.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-title field--type-string field--label-hidden field__item">Entladen des Carriers</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+</h3>
+      <p class="lng-description">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-text-description--title-icon-description.html.twig
+* field--paragraph--field-text-description.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-text-description.html.twig
+x field--text-long.html.twig
+* field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+      </p><div class="clearfix text-formatted field field--name-field-text-description field--type-text-long field--label-hidden field__item"><p><span>Verladen auf die FSRU über flexible Schläuche. Das Entladen erfolgt gezeitenunabhängig und ist in der Regel in 24 Stunden abgeschlossen.</span></p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+<p></p>
+</div>
+</div>
+        <div class="content">
+            <div class="box"></div>
+            <div class="center">
+                <div class="up-line"></div>
+              <div class="width-full-line"></div>
+                <div class="down-line"></div>
+            </div>
+            <div class="box box-2"></div>
+        </div>
+</div>
+
+<!-- END OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+
+</div>
+        <div class="field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'paragraph' -->
+<!-- FILE NAME SUGGESTIONS:
+* paragraph--title-icon-description--default.html.twig
+x paragraph--title-icon-description.html.twig
+* paragraph--default.html.twig
+* paragraph.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+<div class="lng-text-icon-wraper">
+<div class="lng-text-icon-wraper-inner">
+<div class="lng-icon-wraper">
+     
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-icon--title-icon-description.html.twig
+* field--paragraph--field-icon.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-icon.html.twig
+* field--image.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-icon field--type-image field--label-hidden field__item">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image_formatter' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'image' -->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+<img src="/sites/default/files/2022-12/LNG-Prozessgrafiken-091222_Zeichenfla%CC%88che%201_0.svg" alt="prozess 6" loading="lazy" typeof="foaf:Image">
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image.html.twig' -->
+
+
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/image-formatter.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+
+</div>
+<div class="lng-text-wraper">
+      <h3 class="lng-title">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-title--title-icon-description.html.twig
+* field--paragraph--field-title.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-title.html.twig
+* field--string.html.twig
+x field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+      <div class="field field--name-field-title field--type-string field--label-hidden field__item">Regasifizierung / Einspeisung in das deutsche Fernleitungsnetz</div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field.html.twig' -->
+
+</h3>
+      <p class="lng-description">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'field' -->
+<!-- FILE NAME SUGGESTIONS:
+* field--paragraph--field-text-description--title-icon-description.html.twig
+* field--paragraph--field-text-description.html.twig
+* field--paragraph--title-icon-description.html.twig
+* field--field-text-description.html.twig
+x field--text-long.html.twig
+* field.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+      </p><div class="clearfix text-formatted field field--name-field-text-description field--type-text-long field--label-hidden field__item"><p><span>Das LNG wird durch Erwärmung regasifiziert. Das Einspeisen in das deutsche Fernleitungsnetz erfolgt über Verladearme, die die Schnittstelle zwischen FSRU und der landseitigen Infrastruktur darstellen.<span> </span></span></p></div>
+
+<!-- END OUTPUT from 'themes/contrib/bootstrap_barrio/templates/field/field--text-long.html.twig' -->
+
+<p></p>
+</div>
+</div>
+        <div class="content inView1">
+            <div class="box"></div>
+            <div class="center">
+                <div class="up-line"></div>
+              <div class="width-full-line"></div>
+                <div class="down-line"></div>
+            </div>
+            <div class="box box-2"></div>
+        </div>
+</div>
+
+<!-- END OUTPUT from 'themes/custom/ltew/templates/paragraphs/paragraph--title-icon-description.html.twig' -->
+
+</div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+              let elementsArray = document.querySelectorAll(".lng-text-icon-wraper-inner");
+console.log(elementsArray);
+window.addEventListener('scroll', fadeIn ); 
+function fadeIn() {
+    for (var i = 0; i < elementsArray.length; i++) {
+        var elem = elementsArray[i]
+        var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+        if (distInView < 0) {
+            elem.classList.add("inView");
+        } else {
+            elem.classList.remove("inView");
+        }
+    }
+}
+fadeIn();
+let elementsArray1 = document.querySelectorAll(".lng-text-icon-wraper .content");
+console.log(elementsArray1);
+window.addEventListener('scroll', fadeIn1 ); 
+function fadeIn1() {
+    for (var i = 0; i < elementsArray1.length; i++) {
+        var elem1 = elementsArray1[i]
+        var distInView1 = elem1.getBoundingClientRect().top - window.innerHeight + 20;
+        if (distInView1 < 0) {
+            elem1.classList.add("inView1");
+        } else {
+            elem1.classList.remove("inView1");
+        }
+    }
+}
+fadeIn1();
+    </script>
+</body>
+</html>
